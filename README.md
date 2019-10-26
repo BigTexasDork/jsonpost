@@ -1,10 +1,10 @@
 # jsonpost
 ### installation
-1. git clone
-1. python -m venv venv
-1. source venv/bin/activate
-1. pip install -r requirements.txt
-1. python app.py
+1. clone this repo
+1. `python -m venv venv`
+1. `source venv/bin/activate`
+1. `pip install -r requirements.txt`
+1. `python app.py`
 
 ## curl
 ### post good json
