@@ -8,13 +8,17 @@
 
 ## curl
 ### post good json
+```
 curl \
  -d "@data.json" \
  -H "Content-Type: application/json" \
  -X POST http://localhost:5000/firings
+ ```
 
 ### post bad json
+```
 curl \
  -d "@baddata.json" \
  -H "Content-Type: application/json" \
  -X POST http://localhost:5000/firings
+```
